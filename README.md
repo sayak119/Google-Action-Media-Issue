@@ -2,7 +2,9 @@
 
 * It can be simulated on speaker based devices like Google Home Mini and surface based devices like smart displays. But it works fine on Android devices.
 
-* In this error, the action speaks the intended repsonse followed by **Sorry, something went wrong. When you're ready, give it another try.** and then starts playing the media files.
+* In this error, the action speaks the intended repsonse followed by **Sorry, something went wrong. When you're ready, give it another try.** and then starts playing the media files. 
+
+* Expected behaviour should be playing the media file without this error message if no error persists. Otherwise throw appropriate error.
 
 * This is a very minimal example to simulate this error.
 
@@ -35,3 +37,8 @@
 ### Running this Sample
 + You can test your Action on any Google Assistant-enabled device on which the Assistant is signed into the same account used to create this project. Just say or type, “OK Google, talk to <your invocation name>”.
 + You can also use the Actions on Google Console simulator to test most features and preview on-device behavior.
+
+### Steps to reproduce the error
+
+1. Say or type `OK Google, talk to <your invocation name>`.
+2. Say or type `Play sample music `. You'll hear or see the error as the output of this step.
