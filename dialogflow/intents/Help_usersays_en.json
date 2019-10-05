@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1b08ea2a-822a-42ba-b9cb-1fa94f53d5d5",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b8de4fd-9673-4d9c-ba85-cd15992cf9b5",
+    "data": [
+      {
+        "text": "how does this game work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7208a20-06d5-472d-ad8f-1b18ed837a37",
+    "data": [
+      {
+        "text": "how do i play this game?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bbbce7b8-ea15-41f3-ad18-d3cfa57a2b18",
+    "data": [
+      {
+        "text": "can you help me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ec245fe2-4eb3-4062-a5a5-4dbf1e546fb4",
+    "data": [
+      {
+        "text": "how do i play?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9cec7992-16f1-465e-9ed2-9e2acc840546",
+    "data": [
+      {
+        "text": "what can i say?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2863281-405d-433f-8aad-2356c82af61e",
+    "data": [
+      {
+        "text": "how do I answer the question?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a5018d6-d36b-4957-95db-43115f480997",
+    "data": [
+      {
+        "text": "i don\u0027t understand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2575708-9906-4bf5-9b2b-a60c97e7380b",
+    "data": [
+      {
+        "text": "what should I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a151c719-8102-4486-8d4f-194dc4293b21",
+    "data": [
+      {
+        "text": "what do I say?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59dfd85e-94e7-43a6-ae87-016a7f355a26",
+    "data": [
+      {
+        "text": "what can i do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b056052-ce67-4c75-90c4-c00602c68dd5",
+    "data": [
+      {
+        "text": "please help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "001735a8-fd84-4aba-af68-daa5ab06b135",
+    "data": [
+      {
+        "text": "what do i do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57169dbb-5bf3-4d8f-90b0-0a4f0f1ddf60",
+    "data": [
+      {
+        "text": "help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "651327e6-07f7-45d0-b2d2-02cc2dbe147b",
+    "data": [
+      {
+        "text": "what is this game?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5f46fa4-ffde-402c-8d22-ea23b527b9e3",
+    "data": [
+      {
+        "text": "I need some help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84171c09-693d-4b6a-b7dd-651137aac587",
+    "data": [
+      {
+        "text": "what to say?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb56f288-8942-4c7e-b1cc-bf152c7c513e",
+    "data": [
+      {
+        "text": "how should I answer the question?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eca5cb0a-32b2-4f22-95cc-fb3f51f357b8",
+    "data": [
+      {
+        "text": "give me some help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99796789-59e6-4ee0-a752-a657dcab4227",
+    "data": [
+      {
+        "text": "i don\u0027t know how to play this game",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "3cda2f63-ea14-4d53-ac48-bfc23228e69a",
+    "data": [
+      {
+        "text": "what to do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,6 +1,6 @@
 {
-  "id": "068b27d3-c148-4044-bfab-dfa37eebd90d",
-  "name": "Media Status",
+  "id": "a104908a-ae85-45a0-a9ef-17eda9a5f6b5",
+  "name": "Help",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -13,7 +13,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Webhook failed for intent: Media Status"
+          "speech": "Oops! Something went wrong. Please try again later."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -24,10 +24,8 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "actions_intent_MEDIA_STATUS"
-    }
-  ],
-  "conditionalResponses": []
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
 }

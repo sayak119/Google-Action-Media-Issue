@@ -1,6 +1,6 @@
 {
-  "id": "3bff728f-6627-4da5-b40a-59f03ca62ac5",
-  "name": "Media Response",
+  "id": "323e812a-fa14-4301-817e-cc67a39e9027",
+  "name": "No-input",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -13,12 +13,10 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Webhook failed for intent: Media Response"
+          "speech": "Oops! Something went wrong. Please try again later."
         }
       ],
-      "defaultResponsePlatforms": {
-        "google": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -26,6 +24,12 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
-  "conditionalResponses": []
+  "events": [
+    {
+      "name": "actions_intent_NO_INPUT"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
 }

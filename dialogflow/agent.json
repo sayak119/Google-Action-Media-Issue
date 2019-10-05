@@ -7,12 +7,26 @@
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
-    "googleAssistantCompatible": true,
-    "project": "",
+    "googleAssistantCompatible": false,
+    "project": "mediaresponse-wemrrg",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "25bcfe4d-94d4-4a4d-bd59-acb7ed9b230f",
+      "28caab43-3902-4691-bf90-f29ad2bf8fd1",
+      "323e812a-fa14-4301-817e-cc67a39e9027",
+      "5d517f85-82f8-46c5-926f-2a872071ee19",
+      "703f8578-6396-4fde-a360-3da0d29f00c1",
+      "849c1b84-98d4-420a-9226-2b264637293a",
+      "a104908a-ae85-45a0-a9ef-17eda9a5f6b5",
+      "b9071f3d-44ae-4138-a0d2-7ca235526dd2",
+      "cfb31b9e-e21e-44ad-a3e2-8ef4d33f015e",
+      "d4b8fa7c-a076-4db3-9a1c-85825426e357",
+      "e7cb6ac4-3848-4313-9a90-647f1c268d5d",
+      "f0b1ecab-b68e-46d3-9dea-040c930d1591",
+      "fa642eb9-40b7-4fae-ab29-7f1ece7864a8"
+    ],
     "oAuthLinking": {
       "required": false,
       "providerId": "",
@@ -26,12 +40,12 @@
     "capabilities": [],
     "env": "",
     "protocolVersion": "V2",
-    "autoPreviewEnabled": true,
+    "autoPreviewEnabled": false,
     "isDeviceAgent": false
   },
   "defaultTimezone": "America/Denver",
   "webhook": {
-    "url": "https://us-central1-ia-dev-d1c26.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "url": "",
     "username": "",
     "headers": {
       "": ""
@@ -43,7 +57,7 @@
   },
   "isPrivate": true,
   "customClassifierMode": "use.after",
-  "mlMinConfidence": 0.3,
+  "mlMinConfidence": 0.0,
   "supportedLanguages": [],
   "onePlatformApiVersion": "v2",
   "analyzeQueryTextSentiment": false,
