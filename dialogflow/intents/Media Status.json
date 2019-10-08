@@ -1,5 +1,5 @@
 {
-  "id": "849c1b84-98d4-420a-9226-2b264637293a",
+  "id": "068b27d3-c148-4044-bfab-dfa37eebd90d",
   "name": "Media Status",
   "auto": true,
   "contexts": [],
@@ -13,7 +13,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Oops! Something went wrong. Please try again later."
+          "speech": "Webhook failed for intent: Media Status"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -29,7 +29,5 @@
       "name": "actions_intent_MEDIA_STATUS"
     }
   ],
-  "conditionalResponses": [],
-  "condition": "",
-  "conditionalFollowupEvents": []
+  "conditionalResponses": []
 }

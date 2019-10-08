@@ -1,5 +1,5 @@
 {
-  "id": "25bcfe4d-94d4-4a4d-bd59-acb7ed9b230f",
+  "id": "3dbcc2bc-ca24-42d2-a1a2-1b55baea5475",
   "name": "Default Welcome Intent",
   "auto": true,
   "contexts": [],
@@ -7,20 +7,43 @@
     {
       "resetContexts": false,
       "action": "input.welcome",
-      "affectedContexts": [
-        {
-          "name": "more",
-          "parameters": {},
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Hi! I can play music",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "This is a testing action.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Play sample music"
+            }
+          ]
+        },
         {
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Oops! Something went wrong. Please try again later."
+          "speech": "Hi! I can play music."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -28,15 +51,13 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [
     {
-      "name": "GOOGLE_ASSISTANT_WELCOME"
+      "name": "WELCOME"
     }
   ],
-  "conditionalResponses": [],
-  "condition": "",
-  "conditionalFollowupEvents": []
+  "conditionalResponses": []
 }

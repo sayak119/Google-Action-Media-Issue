@@ -1,5 +1,5 @@
 {
-  "id": "e7cb6ac4-3848-4313-9a90-647f1c268d5d",
+  "id": "3ab2f123-1df5-4f21-b8d3-b102031a69eb",
   "name": "Default Fallback Intent",
   "auto": true,
   "contexts": [],
@@ -14,7 +14,20 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Oops! Something went wrong. Please try again later."
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that one more time?",
+            "I didn\u0027t get that. Can you repeat?",
+            "I missed that, say that again?"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -22,11 +35,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": true,
   "events": [],
-  "conditionalResponses": [],
-  "condition": "",
-  "conditionalFollowupEvents": []
+  "conditionalResponses": []
 }
