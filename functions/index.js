@@ -8,7 +8,7 @@ const {
   MediaObject,
 } = require('actions-on-google');
 const functions = require('firebase-functions');
-var flag = 0;
+
 const app = dialogflow({debug: true});
 
 app.intent('Media Response', (conv) => {
@@ -35,7 +35,7 @@ app.intent('Media Response', (conv) => {
 app.intent('Media Status', (conv) => {
   const mediaStatus = conv.arguments.get('MEDIA_STATUS');
   let response = 'Unknown media status received.';
-  if (mediaStatus && mediaStatus.status === 'FINISHED' && flag == 0) {
+  if (mediaStatus && mediaStatus.status === 'FINISHED') {
     conv.ask('Here is the next song');
     conv.ask(new MediaObject({
       name: 'On the Bach',
@@ -46,7 +46,6 @@ app.intent('Media Status', (conv) => {
         alt: 'Cinematic',
       }),
     }));
-    flag = 1;
   } else {
     response = 'Hope you enjoyed the tune! ';
     conv.ask(response);
