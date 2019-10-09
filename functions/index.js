@@ -47,9 +47,9 @@ app.intent('Media Status', (conv) => {
       }),
     }));
   } else {
-    response = 'Hope you enjoyed the tune! ';
+    response = 'Sorry for the inconvenience caused! ';
     conv.ask(response);
-    conv.ask('Media ended successfully');
+    conv.ask('Error occured. ');
   }
   conv.ask(new Suggestions(['exit']));
 });
