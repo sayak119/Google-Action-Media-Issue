@@ -49,7 +49,7 @@ app.intent('Media Status', (conv) => {
   } else {
     response = 'Sorry for the inconvenience caused! ';
     conv.ask(response);
-    conv.ask('Error occured. ');
+    conv.ask('Error occured.');
   }
   conv.ask(new Suggestions(['exit']));
 });
